@@ -23,4 +23,7 @@
 This section is for Features of Tools that are not possible with the current technology.
 
 ### HOW TO USE
+#### Subject to change
+1. Load web-dev-helper on <script> or via npm(to be developed)
+2. Helpe will automatically adjust the environment ( ideally )
 
