@@ -10,9 +10,9 @@
 
 ### Main Features that must be developed:
 * must be highly customizable
-* able to load the HTML and CSS file from the localhost and has the ability to save it and overwrite.
+* able to load the files from the localhost, ability to save it and overwrite, and
 * variety of input methods, i.e. sliders, number input, range, steps, etc.
-* upon adding to package / loading via <script>, the helper must be viewable
+* add helper via script, the helper must be viewable after reload.
 * uses iframe to have a live preview of the changes the developer makes.
 
 ### TOOLS TO BE DEVELOPED
@@ -24,6 +24,10 @@ This section is for Features of Tools that are not possible with the current tec
 
 ### HOW TO USE
 #### Subject to change
-1. Load web-dev-helper on <script> or via npm(to be developed)
-2. Helpe will automatically adjust the environment ( ideally )
+1. Load web-dev-helper via <script>, do not write anything on the body. Inputs 
+2. 
+3. Helper will automatically adjust the environment ( ideally )
+
+### CURRENTLY IN DEVELOPMENT
+1. Main tool interface and display area.
 
