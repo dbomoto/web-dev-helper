@@ -1,6 +1,6 @@
 
 
-/* **** CSS RESET SECTION **** */
+/* **** CSS RESET SECTION START **** */
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -51,4 +51,37 @@ table {
 	border-spacing: 0;
 }
 
-/* **** CSS RESET SECTION **** */
+/* **** CSS RESET SECTION END **** */
+
+
+
+
+
+/* **** GLOBAL CONTAINER SECTION START **** */
+
+/* **** GLOBAL CONTAINER SECTION END **** */
+
+
+
+
+
+/* **** HELPER INTERFACE SECTION START **** */
+
+#helper {
+	width: 330px;
+	height: 100%;
+	background-color: darksalmon;
+}
+
+/* **** HELPER INTERFACE SECTION END **** */
+
+
+
+
+
+
+
+/* **** WEB-DISPLAY INTERFACE SECTION START **** */
+
+
+/* **** WEB-DISPLAY INTERFACE SECTION END **** */
