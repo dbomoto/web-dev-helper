@@ -1,6 +1,18 @@
+/* 
+TABLE OF CONTENTS
 
+Instructions: Search sections using the following legend.
+
+Section1 - CSS RESET 
+Section2 - GLOBAL CONTAINER 
+Section3 - HELPER INTERFACE 
+Section4 - WEB-PREVIEW DISPLAY
+
+*/
 
 /* **** CSS RESET SECTION START **** */
+/* Section1 */
+
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -58,6 +70,8 @@ table {
 
 
 /* **** GLOBAL CONTAINER SECTION START **** */
+/* Section2 */
+
 
 /* **** GLOBAL CONTAINER SECTION END **** */
 
@@ -66,11 +80,24 @@ table {
 
 
 /* **** HELPER INTERFACE SECTION START **** */
+/* Section3 */
+
+
+
 
 #helper {
+	display: flex;
+	flex-direction: column;
 	width: 330px;
 	height: 100%;
 	background-color: darksalmon;
+	border-radius: 5px;
+	font-size: 18px;
+	font-weight: 700;
+	padding: 5px;
+	position: absolute;
+	z-index: 100;
+	overflow-y: scroll;
 }
 
 /* **** HELPER INTERFACE SECTION END **** */
@@ -81,7 +108,9 @@ table {
 
 
 
-/* **** WEB-DISPLAY INTERFACE SECTION START **** */
+/* **** WEB-PREVIEW DISPLAY SECTION START **** */
+/* Section4 */
 
 
-/* **** WEB-DISPLAY INTERFACE SECTION END **** */
+
+/* **** WEB-PREVIEW DISPLAY SECTION END **** */
