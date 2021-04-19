@@ -72,6 +72,11 @@ table {
 /* **** GLOBAL CONTAINER SECTION START **** */
 /* Section2 */
 
+body {
+	display: flex;
+	flex-direction: row;
+	
+}
 
 /* **** GLOBAL CONTAINER SECTION END **** */
 
@@ -83,20 +88,19 @@ table {
 /* Section3 */
 
 
-
-
 #helper {
 	display: flex;
 	flex-direction: column;
 	width: 330px;
-	height: 100%;
+	/* height will change the more features will be added */
+	height: 100vh;
 	background-color: darksalmon;
 	border-radius: 5px;
 	font-size: 18px;
 	font-weight: 700;
 	padding: 5px;
-	position: absolute;
-	z-index: 100;
+	/* position: absolute; */
+	/* z-index: 100; */
 	overflow-y: scroll;
 }
 
@@ -111,6 +115,16 @@ table {
 /* **** WEB-PREVIEW DISPLAY SECTION START **** */
 /* Section4 */
 
-
+iframe {
+	/* position: absolute;
+	left: 330px; */
+	width: 100%;
+	/* if 100vh iframe will not align with helper interface */
+	height: auto;
+	overflow: auto;
+	resize: both;
+	box-shadow: 1px 1px 1px red;
+	/* min-width: 300px; */
+}
 
 /* **** WEB-PREVIEW DISPLAY SECTION END **** */
