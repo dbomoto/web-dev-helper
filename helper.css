@@ -1,17 +1,35 @@
-/* 
-TABLE OF CONTENTS
 
-Instructions: Search sections using the following legend.
 
-Section1 - CSS RESET 
-Section2 - GLOBAL CONTAINER 
-Section3 - HELPER INTERFACE 
-Section4 - WEB-PREVIEW DISPLAY
+/* ///////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+//																//
+//																//
+//	TABLE OF CONTENTS											//
+//																//
+//	Instructions: Search sections using the following legend.	//
+//																//
+//	Section1 - CSS RESET 										//
+//	Section2 - GLOBAL CONTAINER 								//
+//	Section3 - HELPER INTERFACE 								//
+//	Section4 - WEB-PREVIEW DISPLAY								//
+//																//
+//////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////// */
 
-*/
 
-/* **** CSS RESET SECTION START **** */
-/* Section1 */
+
+
+/* ///////////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////
+//																//
+//																//
+//				CSS RESET SECTION START							//
+//				Section1										//
+//																//
+//																//
+//////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////// */
+
 
 
 /* http://meyerweb.com/eric/tools/css/reset/ 
@@ -63,7 +81,6 @@ table {
 	border-spacing: 0;
 }
 
-/* **** CSS RESET SECTION END **** */
 
 
 
@@ -102,6 +119,15 @@ body {
 	/* position: absolute; */
 	/* z-index: 100; */
 	overflow-y: scroll;
+}
+
+#b-div {
+	width: 200px;
+	height: 200px;
+	border-style: dashed;
+	border-color: black;
+	border-width: 2px;
+	background-color: hsla(180,100%,27%,0.6);
 }
 
 /* **** HELPER INTERFACE SECTION END **** */
