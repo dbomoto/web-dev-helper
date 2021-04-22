@@ -1,3 +1,5 @@
+
+
 /* ///////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 //																//
@@ -13,6 +15,10 @@
 //																//
 //////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////// */
+
+
+
+
 /* ///////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 //																//
@@ -23,10 +29,13 @@
 //																//
 //////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////// */
+
+
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
 */
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -36,46 +45,41 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed,
-figure, figcaption, footer, header, hgroup,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
 }
-
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure,
+article, aside, details, figcaption, figure, 
 footer, header, hgroup, menu, nav, section {
-  display: block;
+	display: block;
 }
-
 body {
-  line-height: 1;
+	line-height: 1;
 }
-
 ol, ul {
-  list-style: none;
+	list-style: none;
 }
-
 blockquote, q {
-  quotes: none;
+	quotes: none;
 }
-
 blockquote:before, blockquote:after,
 q:before, q:after {
-  content: '';
-  content: none;
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
 }
 
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
 
 /* ///////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -87,15 +91,14 @@ table {
 //																//
 //////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////// */
+
 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
+	display: flex;
+	flex-direction: row;
+	
 }
+
+
 
 /* ///////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -107,43 +110,41 @@ body {
 //																//
 //////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////// */
+
+
 #helper {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  width: 330px;
-  /* height will change the more features will be added */
-  height: 100vh;
-  background-color: darksalmon;
-  border-radius: 5px;
-  font-size: 18px;
-  font-weight: 700;
-  padding: 5px;
-  /* position: absolute; */
-  /* z-index: 100; */
-  overflow-y: scroll;
+	display: flex;
+	flex-direction: column;
+	width: 330px;
+	/* height will change the more features will be added */
+	height: 100vh;
+	background-color: darksalmon;
+	border-radius: 5px;
+	font-size: 18px;
+	font-weight: 700;
+	padding: 5px;
+	/* position: absolute; */
+	/* z-index: 100; */
+	overflow-y: scroll;
 }
 
 #b-div {
-  width: 200px;
-  height: 200px;
-  border-style: dashed;
-  border-color: black;
-  border-width: 2px;
-  background-color: rgba(0, 138, 138, 0.6);
+	width: 200px;
+	height: 200px;
+	border-style: dashed;
+	border-color: black;
+	border-width: 2px;
+	background-color: hsla(180,100%,27%,0.6);
 }
 
 #resources {
-  background-color: #c5a249;
+    background-color: rgb(197, 162, 73);
+    button {
+        background-color: rgba(158, 236, 12, 0.705);
+    }
 }
 
-#resources button {
-  background-color: rgba(158, 236, 12, 0.705);
-}
+
 
 /* ///////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
@@ -155,13 +156,21 @@ body {
 //																//
 //////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////// */
+
+
+
 #web-preview {
-  width: 100%;
-  /* if 100vh iframe will not align with helper interface */
-  height: auto;
-  overflow: auto;
-  resize: horizontal;
-  background-color: dodgerblue;
-  /* min-width: 300px; */
+	// position: absolute;
+	// left: 330px; 
+	width: 100%;
+	/* if 100vh iframe will not align with helper interface */
+	height: auto;
+	// max-height: 100vh;
+	overflow: auto;
+	resize: horizontal;
+	background-color: dodgerblue;
+	// box-shadow: 1px 1px 1px red;
+	/* min-width: 300px; */
 }
-/*# sourceMappingURL=helper.css.map */
+
+
