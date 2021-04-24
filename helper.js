@@ -9,3 +9,7 @@
 // Section3 - REFERENCE OBJECTS 
 // Section4 - CSS MODEL FUNCTIONS
 // Section5 - HTML DOM FUNCTIONS
+
+$(window).on('load',function(){
+    alert('jquery is working')
+})

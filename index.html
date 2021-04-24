@@ -24,12 +24,17 @@
             the interface will change also -->
         <section id="tools">
               <!-- let user either to upload pic or choose from resources -->
-            <button>CLIP PATH</button>
-            <button>CLIP SOURCE</button>
+            <button onclick="clipPathPreview()">CLIP PATH</button>
+            <button onclick="clipPathSourcePreview()">CLIP SOURCE</button>
         </section>
         <!-- display here the inputs needed for the tools to function -->
         <section id="tools-display">
-
+            <div id="clip-path">
+                <input type="text" id="clip-path-src" placeholder="Place URI of image here">
+            </div>
+            <div id="clip-source">
+                <input type="text" id="clip-source-src" placeholder="Place URI of image here">
+            </div>
         </section>    
 
 
@@ -52,7 +57,6 @@
     <!-- display here your website -->
     <div id="web-preview">
         <h5>test</h5>
-
     </div>
 
 
@@ -64,6 +68,9 @@
 
 
 </body>
-<!-- jQuery for helper.js -->
+
+<!-- jQuery for helper.js, load this first before helper.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<!-- js for the app -->
+<script src="helper.js"></script>
 </html>
