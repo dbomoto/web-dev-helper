@@ -18,38 +18,27 @@
             in a modal, or carousel.  -->
             <button>UNSPLASH</button>
         </section>
+        <hr>
 
         <h3>TOOLS</h3>
         <!-- depending on what tool is click by the user
             the interface will change also -->
         <section id="tools">
               <!-- let user either to upload pic or choose from resources -->
-            <button onclick="clipPathPreview()">CLIP PATH</button>
-            <button onclick="clipPathSourcePreview()">CLIP SOURCE</button>
+            <button id="btn-clip-path">CLIP PATH</button>
+            <button id="btn-clip-source">CLIP SOURCE</button>
         </section>
         <!-- display here the inputs needed for the tools to function -->
+        
         <section id="tools-display">
-            <div id="clip-path">
+            <div id="clip-path-inputs" class="show">
                 <input type="text" id="clip-path-src" placeholder="Place URI of image here">
             </div>
-            <div id="clip-source">
+            <div id="clip-source-inputs" class="show">
                 <input type="text" id="clip-source-src" placeholder="Place URI of image here">
             </div>
         </section>    
-
-
-
-        <h3>BLOCKS</h3>
-        <section id="blocks">
-            <div id="b-div"></div>
-        </section>
-
-
-
-        <h3>BEHAVIOR</h3>
-        <section id="behavior">
-            
-        </section>
+        <hr>
 
     </div>
 

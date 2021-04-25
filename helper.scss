@@ -149,7 +149,17 @@ body {
 	flex-direction: column;
 }
 
+// initially no tools will be displayed
 
+.show {
+	display: none;
+}
+
+hr {
+	width: 100%;
+	height: 2px;
+	background-color: darkgreen;
+}
 /* ///////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////
 //																//

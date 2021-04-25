@@ -11,5 +11,14 @@
 // Section5 - HTML DOM FUNCTIONS
 
 $(window).on('load',function(){
-    alert('jquery is working')
+    // shows or hided the clip-path inputs
+    $('#btn-clip-path').click(()=>{
+        $('#clip-path-inputs').toggleClass('show');
+    })
+
+    // shows or hided the clip-source inputs
+    $('#btn-clip-source').click(()=>{
+        $('#clip-source-inputs').toggleClass('show');
+    })
+
 })
