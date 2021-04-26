@@ -11,14 +11,17 @@
 // Section5 - HTML DOM FUNCTIONS
 
 $(window).on('load',function(){
-    // shows or hided the clip-path inputs
+    
     $('#btn-clip-path').click(()=>{
+        // shows the clip-path inputs
         $('#clip-path-inputs').toggleClass('show');
+        //TODO hides the inputs of the other tools
     })
 
-    // shows or hided the clip-source inputs
     $('#btn-clip-source').click(()=>{
+        // shows the clip-source inputs
         $('#clip-source-inputs').toggleClass('show');
+        //TODO hides the inputs of the other tools
     })
 
 })

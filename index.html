@@ -5,61 +5,63 @@
     <!-- <link rel="stylesheet" href="styles.css"> -->
 </head>
 <body>
-    <!-- ALL ELEMENTS PRESENT SHOULD BE HANDLED BY JAVASCRIPT UPON 
-        LOADING OF HELPER (IDEALLY) -->
+    <!-- 
+        *ALL ELEMENTS PRESENT SHOULD BE HANDLED BY JAVASCRIPT 
+        *UPON LOADING OF HELPER (IDEALLY) 
+    -->
 
 
-    <!-- all tools should be located here -->
+    <!-- *all tools should be located here -->
     <div id="helper">
 
         <h3>RESOURCES</h3>
         <section id="resources">
-            <!-- pressing this button will output images from unsplash 
-            in a modal, or carousel.  -->
+            <!--
+                *pressing this button will output images from unsplash 
+                *in a modal, or carousel.  
+            -->
             <button>UNSPLASH</button>
         </section>
         <hr>
 
         <h3>TOOLS</h3>
-        <!-- depending on what tool is click by the user
-            the interface will change also -->
+        <!-- 
+            *depending on what tool is click by the user
+            *the interface will change also 
+        -->
         <section id="tools">
-              <!-- let user either to upload pic or choose from resources -->
+        <!-- *let user either to upload pic or choose from resources -->
             <button id="btn-clip-path">CLIP PATH</button>
             <button id="btn-clip-source">CLIP SOURCE</button>
         </section>
-        <!-- display here the inputs needed for the tools to function -->
-        
+        <hr>
+
+        <!-- *display here the inputs needed for the tools to function -->
         <section id="tools-display">
             <div id="clip-path-inputs" class="show">
                 <input type="text" id="clip-path-src" placeholder="Place URI of image here">
+                <input type="text" id="clip-path-alt" placeholder="Place ALT attribute of image here">
             </div>
             <div id="clip-source-inputs" class="show">
                 <input type="text" id="clip-source-src" placeholder="Place URI of image here">
+                <input type="text" id="clip-source-alt" placeholder="Place ALT attribute of image here">
             </div>
         </section>    
-        <hr>
+
 
     </div>
 
 
-    <!-- display here your website -->
+    <!-- *display here your image -->
     <div id="web-preview">
-        <h5>test</h5>
+        <!-- *append image here after user inputs are recieved -->
     </div>
-
-
-    <!-- decided to change to div, and let it serve as a body of
-    the website the user will create -->
-    <!-- display here the target website you want to edit -->
-    <!-- <iframe id="web-display" src="test.html"></iframe> -->
-
 
 
 </body>
 
-<!-- jQuery for helper.js, load this first before helper.js -->
+<!-- *jQuery for helper.js, load this first before helper.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<!-- js for the app -->
+<!-- *js for the app -->
 <script src="helper.js"></script>
 </html>

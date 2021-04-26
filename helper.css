@@ -1,28 +1,11 @@
-/* ///////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////
-//																//
-//																//
-//	TABLE OF CONTENTS											//
-//																//
-//	Instructions: Search sections using the following legend.	//
-//																//
-//	Section1 - CSS RESET 										//
-//	Section2 - GLOBAL CONTAINER 								//
-//	Section3 - HELPER INTERFACE 								//
-//	Section4 - WEB-PREVIEW DISPLAY								//
-//																//
-//////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////// */
-/* ///////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////
-//																//
-//																//
-//				CSS RESET 										//
-//				Section1										//
-//																//
-//																//
-//////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////// */
+/*
+*TABLE OF CONTENTS											
+*Instructions: Search sections using the following legend.	
+*ection1 - CSS RESET
+*Section2 - GLOBAL CONTAINER
+*Section3 - HELPER INTERFACE
+*Section4 - WEB-PREVIEW DISPLAY
+*/
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -77,16 +60,6 @@ table {
   border-spacing: 0;
 }
 
-/* ///////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////
-//																//
-//																//
-//				GLOBAL CONTAINER 								//
-//				Section2										//
-//																//
-//																//
-//////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////// */
 body {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -97,16 +70,6 @@ body {
           flex-direction: row;
 }
 
-/* ///////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////
-//																//
-//																//
-//				HELPER INTERFACE								//
-//				Section3										//
-//																//
-//																//
-//////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////// */
 #helper {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -116,15 +79,12 @@ body {
       -ms-flex-direction: column;
           flex-direction: column;
   width: 330px;
-  /* height will change the more features will be added */
   height: 100vh;
   background-color: darksalmon;
   border-radius: 5px;
   font-size: 18px;
   font-weight: 700;
   padding: 5px;
-  /* position: absolute; */
-  /* z-index: 100; */
   overflow-y: scroll;
 }
 
@@ -165,19 +125,14 @@ hr {
   background-color: darkgreen;
 }
 
-/* ///////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////////////
-//																//
-//																//
-//				WEB-PREVIEW										//
-//				Section4										//
-//																//
-//																//
-//////////////////////////////////////////////////////////////////
-////////////////////////////////////////////////////////////////// */
+#clip-path-inputs *, #clip-source-inputs * {
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
 #web-preview {
   width: 100%;
-  /* if 100vh iframe will not align with helper interface */
   height: auto;
   overflow: auto;
   resize: horizontal;
