@@ -157,10 +157,22 @@ hr {
 	height: auto;
 	// max-height: 100vh;
 	overflow: auto;
-	resize: horizontal;
 	background-color: dodgerblue;
 	// box-shadow: 1px 1px 1px red;
 	/* min-width: 300px; */
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	img {
+		background-color: rgba(255, 108, 108, 0.918);
+	}
+}
+
+#unsplash-prev {
+	width: 100%;
+	height: auto;
+	overflow-y:scroll;
+	background-color: chocolate;
 }
 
 

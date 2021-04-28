@@ -135,8 +135,27 @@ hr {
   width: 100%;
   height: auto;
   overflow: auto;
-  resize: horizontal;
   background-color: dodgerblue;
   /* min-width: 300px; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#web-preview img {
+  background-color: rgba(255, 108, 108, 0.918);
+}
+
+#unsplash-prev {
+  width: 100%;
+  height: auto;
+  overflow-y: scroll;
+  background-color: chocolate;
 }
 /*# sourceMappingURL=helper.css.map */

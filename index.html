@@ -5,12 +5,7 @@
     <!-- <link rel="stylesheet" href="styles.css"> -->
 </head>
 <body>
-    <!-- 
-        *ALL ELEMENTS PRESENT SHOULD BE HANDLED BY JAVASCRIPT 
-        *UPON LOADING OF HELPER (IDEALLY) 
-    -->
-
-
+<!-- TODO On Refactoring: Make html have semantic meaning  -->
     <!-- *all tools should be located here -->
     <div id="helper">
 
@@ -20,7 +15,7 @@
                 *pressing this button will output images from unsplash 
                 *in a modal, or carousel.  
             -->
-            <button>UNSPLASH</button>
+            <button id='unsplash'>UNSPLASH</button>
         </section>
         <hr>
 
@@ -38,6 +33,9 @@
 
         <!-- *display here the inputs needed for the tools to function -->
         <section id="tools-display">
+<!-- TODO let user choose what clip style they want -->
+<!-- TODO clipping of image -->
+<!-- TODO clipping of text / paragraph -->
             <div id="clip-path-inputs" class="show">
                 <input type="text" id="clip-path-src" placeholder="Place URI of image here">
                 <input type="text" id="clip-path-alt" placeholder="Place ALT attribute of image here">
@@ -52,15 +50,24 @@
     </div>
 
 
-    <!-- *display here your image -->
+    <!-- *display here clipping preview here -->
     <div id="web-preview">
-        <!-- *append image here after user inputs are recieved -->
+<!-- ?https://www.w3schools.com/cssref/css3_pr_clip-path.asp -->
+<!-- ?https://css-tricks.com/almanac/properties/c/clip-path/ -->
+<!-- ?https://developer.mozilla.org/en-US/docs/Web/SVG/Element/clipPath -->
+<!-- TODO clipping  -->
+        <img id="image-preview" src='' alt='image-preview'>
+    </div>
+
+    <!-- *display unsplash requests here -->
+    <div id="unsplash-prev" class="show">
+<!-- TODO when user clicks 'unsplash' button, it will load here the results -->
     </div>
 
 
 </body>
 
-<!-- *jQuery for helper.js, load this first before helper.js -->
+<!-- !jQuery for helper.js, load this first before helper.js -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 <!-- *js for the app -->
 <script src="helper.js"></script>

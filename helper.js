@@ -24,4 +24,8 @@ $(window).on('load',function(){
         //TODO hides the inputs of the other tools
     })
 
+    $('#unsplash').click(()=>{
+        $('#unsplash-prev').toggleClass('show');
+    })
+
 })
