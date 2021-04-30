@@ -1,7 +1,2 @@
 .env
-tesignore.md
-testignore2.md
-testignore3.md
-
-ignoredFiles/
-testignore.md
+node_modules
