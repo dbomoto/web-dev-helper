@@ -18,11 +18,11 @@ $(window).on('load',function(){
         //TODO hides the inputs of the other tools
     })
 
-    $('#btn-clip-source').click(()=>{
+    // $('#btn-clip-source').click(()=>{
         // shows the clip-source inputs
-        $('#clip-source-inputs').toggleClass('show');
+    //     $('#clip-source-inputs').toggleClass('show');
         //TODO hides the inputs of the other tools
-    })
+    // })
 
     $('#unsplash').click(()=>{
         $('#unsplash-prev').toggleClass('show');

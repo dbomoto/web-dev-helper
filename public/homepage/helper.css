@@ -78,7 +78,7 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  width: 330px;
+  min-width: 300px;
   height: 100vh;
   background-color: darksalmon;
   border-radius: 5px;
@@ -125,7 +125,7 @@ hr {
   background-color: darkgreen;
 }
 
-#clip-path-inputs *, #clip-source-inputs * {
+#clip-path-inputs * {
   width: 100%;
   margin-top: 5px;
   margin-bottom: 5px;

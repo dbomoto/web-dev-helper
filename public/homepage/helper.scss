@@ -88,7 +88,7 @@ body {
 #helper {
 	display: flex;
 	flex-direction: column;
-	width: 330px;
+	min-width: 300px;
 	//? height will change the more features will be added 
 	height: 100vh;
 	background-color: darksalmon;
@@ -132,7 +132,7 @@ hr {
 	background-color: darkgreen;
 }
 
-#clip-path-inputs,#clip-source-inputs {
+#clip-path-inputs{
 	* {
 		width: 100%;
 		margin-top: 5px;
